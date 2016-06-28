@@ -1,0 +1,596 @@
+/*****************************General Styling*****************************/
+div.clear {
+	clear: both;
+}
+
+.container {
+	max-width: 947px;
+}
+
+html {
+  height: 100%;
+}
+
+
+body {
+	padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	position: relative;
+	margin: 0;
+	padding-bottom: 30rem; /* This pushes the footer down under the content so it doesn't overlap */  
+	min-height: 100%;
+}
+
+a {
+	color: #3498db;
+}
+
+
+/*
+COLORS USED
+blue:
+#3068b2
+
+orange:
+#e69f12
+*/
+
+/*Blue color*/
+.blueColor {
+	color: #3068b2;
+}
+
+
+/*Orange color*/
+.orangeColor {
+	color: #e69f12;
+}
+
+/*
+This hides the iPhone video play button on background image on mobile
+*/
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height:100%;
+	position:relative;
+	margin: 0 auto;
+  	padding-top: 64px;
+}
+
+.fullWidthIMG {
+	width: 100%;
+}
+
+/* margin at the top of each page */
+#homePage, 
+#infoPage, 
+#contactPage {
+	margin-top: 50px;
+}
+
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url(../img/mapblue.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	/*color: #ecf0f1;*/
+	color: #3068b2;
+}
+
+
+.boldStyle {
+	font-weight: bold;
+}
+
+/*****************************Navbar*****************************/
+
+
+/*This changes the default color of the mobile drop down button in the menu to white */
+
+.icon-bar {
+	background-color: #ecf0f1;
+}
+
+.navbar-brand:hover {
+	opacity: 0.5;
+}
+
+.navbar .navbar-nav > li > a:hover, 
+.navbar .navbar-nav > li > a:focus {
+  background-color: white;
+  color: #3068b2;
+  text-decoration: none;
+}
+
+.navbar .navbar-nav > .active,
+.navbar .navbar-nav > .active > a
+{
+  background-color: #ecf0f1; /* #ecf0f1 smoke */
+  color: #3068b2; /* #3068b2 blue */
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.contact-div {
+	padding: 0 !important;
+}
+
+/*This is the added class which changes the navbar styling 
+upon scrolling down on the "About" page*/
+.navbarOnScroll {
+	background-image: 
+		linear-gradient(
+	      to top right, 
+	      #55647e, #55647e
+	    );
+	opacity: 0.8;
+}
+
+
+
+/***************************
+Buttons
+***************************/
+.btn{
+	background-image: 
+		linear-gradient(
+	      to top right, 
+	      #20aae1, #3068b2
+	    );
+	font-size: 1.75em;
+	border: 2px solid white;
+	box-shadow:  1px 1px 1px #000;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+	/*remove rounded corners*/
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+}
+
+#landingButton {
+	position: absolute;
+	bottom: 10%;
+	left: 47%;
+	display: none;
+}
+
+#btnDiv > #landingButton > .btn > a {
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+}
+	#btnDiv > #landingButton > .btn > a:hover {
+			color: #bdc3c7;
+			text-decoration: none;
+		}
+
+
+
+
+/*************************** Chat Bubble Stylings ***************************/
+.chatBubble {
+  position: relative;
+  padding: 15px;
+  margin: 0 0 5em 0;
+  color: #000;
+  border-radius: 20px;
+  background: white;
+}
+
+
+.chatBubble:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: white transparent;
+}
+
+.chatBubble h1, .chatBubble p {
+	color: #3068b2;
+}
+
+
+
+.chatBubbleInstagram {
+  position: relative;
+  padding: 15px;
+  margin: 0 0 5em 0;
+  color: #000;
+  border-radius: 20px;
+  background: #edf0f3;
+}
+
+
+.chatBubbleInstagram:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #edf0f3 transparent;
+}
+
+
+.chatBubbleTwitter {
+  position: relative;
+  padding: 15px;
+  margin: 0 0 5em 0;
+  color: #000;
+  border-radius: 20px;
+  background: #217fc3;
+}
+
+
+.chatBubbleTwitter:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #217fc3 transparent;
+}
+
+
+
+/***************************** 
+Home Page Video
+*****************************/
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(img/mapblue.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+/*
+App Store Badge on Homepage
+*/
+
+#app-store-badge {
+	max-width: 150px;
+	margin: 0 auto;
+}
+	#app-store-badge:hover {
+		opacity: 0.7;
+	}
+
+
+/*Quickstart*/
+.div-quickstart {
+	max-width: 250px;
+	margin: 0 auto;
+	
+}
+
+	#quickstartImage {
+		width: 100%;
+		border-radius: 15px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+
+/*Hovereffect code for Quickstart image (https://miketricking.github.io/dist/)*/
+.hovereffect {
+	max-width: 250px;
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	cursor:default;
+}
+
+.hovereffect .overlay {
+	max-width: 250px;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+	opacity:0;
+	background-color:rgba(0,0,0,0.5);
+	-webkit-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+	display:block;
+	position:relative;
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
+}
+
+.hovereffect h2 {
+	text-transform:uppercase;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	font-size:17px;
+	background:rgba(0,0,0,0.6);
+	-webkit-transform:translatey(-100px);
+	-ms-transform:translatey(-100px);
+	transform:translatey(-100px);
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	padding:10px;
+}
+
+.hovereffect a.info {
+	text-decoration:none;
+	display:inline-block;
+	/*text-transform:uppercase;*/
+	color:#fff;
+	/*border:1px solid #fff;*/
+	background-color:transparent;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	margin:50px 0 0;
+	padding:7px 14px;
+	font-size: .55em;
+}
+
+.hovereffect a.info:hover {
+	box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+	-ms-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+	opacity:1;
+	filter:alpha(opacity=100);
+	-ms-transform:translatey(0);
+	-webkit-transform:translatey(0);
+	transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+	-webkit-transition-delay:.2s;
+	transition-delay:.2s;
+}
+
+
+/***************************** 
+About Page styling is 
+on the CSS file at info.shmap.me
+*****************************/
+
+
+
+
+
+/*****************************
+Contact Page
+*****************************/
+label {
+	float: left;
+	color: #ecf0f1;
+}
+.contact-div {
+	max-width: 585px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 50px;
+}
+
+
+/*****************************
+Footer
+******************************/
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  margin-top: 100px;
+  background-color: #bdc3c7;
+  padding-bottom: 20px;
+}
+
+
+/*Left Footer Column*/
+.shmap-logo-footer:hover {
+	opacity: 0.5;
+}
+
+/*Center Footer Column*/
+	.social-icon:hover {
+		opacity: 0.5;
+	}
+
+/*Right Footer Column*/
+.footer-links {
+	line-height: 10px;
+}
+
+
+
+
+/****************************** Media Queries ******************************/
+
+@media all and (max-width:989px) {
+
+	/*This changes the color of the nav links*/
+	.navbar-brand, .navbar-nav > li > a {
+		color: black;
+	}
+
+		/* toggled background color of nav links */
+		.navbar .navbar-collapse .nav {
+		  background-color: white;
+		}
+
+		.navbar .navbar-collapse .nav:hover,
+		.navbar .navbar-collapse .nav:focus {
+		  background-color: #bdc3c7;
+		}
+
+	body { 
+		background: url(../img/mapblue.jpg) #000 repeat center center fixed;
+	}
+
+	#homepage-logo {
+		max-width: 250px !important;
+		margin: 0 auto;
+	}
+
+	#homepage-gif {
+		margin: 0 auto;
+		width: 85%;
+	}
+
+	.chatBubble, .chatBubbleInstagram, .chatBubbleTwitter {
+/*	  position: relative;
+	  padding: 15px;*/
+	  margin: 1em 2em 3em;
+/*	  color: #000;
+	  border-radius: 20px;
+	  background: white;*/
+	}
+
+	/*Footer*/
+	.container .text-muted {
+		margin: 20px 0 0 0;
+		text-align: center;
+	}
+
+	.shmap-logo-footer {
+		max-height: 30px;
+		display: block;
+		/*margin-top: 30px;*/
+	  	margin-left: auto;
+	 	margin-right: auto;
+	}
+	.social-icon-div {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.social-icon {
+		max-width: 30px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.footer-links-p {
+		padding-top: 0px;
+	}
+
+
+	/*Contact*/
+	#contactForm {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+
+/*768*/
+@media all and (min-width:990px) {
+
+	/*This changes the color of the nav links*/
+	.navbar-brand, .navbar-nav > li > a {
+		color: #ecf0f1;
+	}
+
+
+	#homepage-logo {
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 40px 0px;
+	}
+
+
+	#homepage-gif {
+		margin: 0 auto;
+		width: 100%;
+		padding-right: 50px;
+	}
+
+
+
+	/*Footer*/
+	.container .text-muted {
+		margin: 10px 0 10px 0;
+		text-align: center;
+	}
+
+	.shmap-logo-footer {
+		max-height: 40px;
+		display: block;
+		margin-top: 10px;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	.social-icon-div {
+		text-align: center;
+		padding-top: 20px;
+	}
+		.social-icon {
+			max-width: 40px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	.footer-links-p {
+		padding-top: 10px;
+	}
+
+}
+
+
+
