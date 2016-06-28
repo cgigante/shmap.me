@@ -36,28 +36,21 @@
           <h1 class="animated flipInX">
             <div class="row">
               <div class="col-md-8">
-                
                 <img src="img/softBarbie_withText_trnsp.png" class="img-responsive" id="homepage-logo">
-                
-                <!-- <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank">
-                  <em>Download today on iOS</em>
-                </a> -->
-                <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank">
-                	<img id="app-store-badge" class="img-responsive" src="img/app_store_badge.png" alt="Download Shmap on iOS" title="Download Shmap on iOS" />
-                </a>
-                
+                <div id="app-store-badge-div">
+                  <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank">
+                    <img id="app-store-badge" class="img-responsive" src="img/app_store_badge.png" alt="Download Shmap on iOS" title="Download Shmap on iOS" />
+                  </a>                  
+                </div>
                 <div>
-                  <h3><span class="orangeColor">Brand Ambassadors</h3></span>
-                  
+                  <h3><span class="orangeColor">Brand Ambassadors:</h3></span>
                   <h4><em>Download the Shmap Quickstart Guide &amp; Presentation</em></h4>
-
                   <div class="row">
                     <div class="col-md-6">
                       <div class="div-quickstart">
                         <div class="hovereffect">
                             <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
                             <div class="overlay">
-                               <!-- <h2>Hover effect 1</h2> -->
                                <a class="info" href="quickstart/shmap_launch_handout_sm.pdf" download><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download the Shmap Quickstart Guide</a>
                             </div>
                         </div>                    
@@ -97,14 +90,14 @@
       <div class="row">
         
         
-        <div class="col-md-7 text-center chatBubbleInstagram animated bounceInLeft">
+        <div class="col-md-6 text-center chatBubbleInstagram animated bounceInLeft">
         	<h4><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="img-responsive" style="max-width:60px; margin:0 auto;"> on <a href="https://www.instagram.com/shmapapp/" target="_blank">Instagram</a></h4>
 					<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/091e8a1d4899621ac35a9648d571ea206f7c0ac3.html" id="lightwidget_091e8a1d48" name="lightwidget_091e8a1d48"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 				</div>
 
-        <div class="col-md-1"></div>
+        <!-- <div class="col-md-1"></div> -->
 
-        <div class="col-md-4 text-center chatBubbleTwitter animated bounceInRight">
+        <div class="col-md-6 text-center chatBubbleTwitter animated bounceInRight">
 					<a class="twitter-timeline" data-height="500" data-link-color="#e69f12" href="https://twitter.com/shmapapp">Tweets by shmapapp</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
 

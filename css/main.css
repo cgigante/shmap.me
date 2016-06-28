@@ -27,11 +27,6 @@ a {
 
 /*
 COLORS USED
-blue:
-#3068b2
-
-orange:
-#e69f12
 */
 
 /*Blue color*/
@@ -56,12 +51,12 @@ video::-webkit-media-controls-start-playback-button {
 
 
 /* Wrapper for page content to push down footer */
-#wrap {
+/*#wrap {
 	min-height:100%;
 	position:relative;
 	margin: 0 auto;
   	padding-top: 64px;
-}
+}*/
 
 .fullWidthIMG {
 	width: 100%;
@@ -86,7 +81,6 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-	/*color: #ecf0f1;*/
 	color: #3068b2;
 }
 
@@ -96,7 +90,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /*****************************Navbar*****************************/
-
 
 /*This changes the default color of the mobile drop down button in the menu to white */
 
@@ -138,8 +131,6 @@ upon scrolling down on the "About" page*/
 	    );
 	opacity: 0.8;
 }
-
-
 
 /***************************
 Buttons
@@ -185,9 +176,6 @@ Buttons
 			text-decoration: none;
 		}
 
-
-
-
 /*************************** Chat Bubble Stylings ***************************/
 .chatBubble {
   position: relative;
@@ -198,18 +186,17 @@ Buttons
   background: white;
 }
 
-
-.chatBubble:after {
-  content: "";
-  display: block; /* reduce the damage in FF3.0 */
-  position: absolute;
-  bottom: -15px;
-  left: 50px;
-  width: 0;
-  border-width: 15px 15px 0;
-  border-style: solid;
-  border-color: white transparent;
-}
+	.chatBubble:after {
+	  content: "";
+	  display: block; /* reduce the damage in FF3.0 */
+	  position: absolute;
+	  bottom: -15px;
+	  left: 50px;
+	  width: 0;
+	  border-width: 15px 15px 0;
+	  border-style: solid;
+	  border-color: white transparent;
+	}
 
 .chatBubble h1, .chatBubble p {
 	color: #3068b2;
@@ -286,18 +273,16 @@ video#bgvid {
 }
 
 
-/*
-App Store Badge on Homepage
-*/
+/*App Store Badge on Homepage*/
 
-#app-store-badge {
-	max-width: 150px;
+
+#app-store-badge-div, #app-store-badge {
+	width: 150px;
 	margin: 0 auto;
 }
 	#app-store-badge:hover {
 		opacity: 0.7;
 	}
-
 
 /*Quickstart*/
 .div-quickstart {
@@ -308,13 +293,11 @@ App Store Badge on Homepage
 
 	#quickstartImage {
 		width: 100%;
-		border-radius: 15px;
 		margin-bottom: 10px;
 		margin-top: 10px;
 	}
 
-
-/*Hovereffect code for Quickstart image (https://miketricking.github.io/dist/)*/
+/* Hovereffect code for Quickstart image (source: https://miketricking.github.io/dist/) */
 .hovereffect {
 	max-width: 250px;
 	height:100%;
@@ -335,7 +318,7 @@ App Store Badge on Homepage
 	opacity:0;
 	background-color:rgba(0,0,0,0.5);
 	-webkit-transition:all .4s ease-in-out;
-	transition:all .4s ease-in-out
+	transition:all .4s ease-in-out;
 }
 
 .hovereffect img {
@@ -488,20 +471,16 @@ footer {
 	#homepage-logo {
 		max-width: 250px !important;
 		margin: 0 auto;
+		padding-bottom: 20px;
 	}
 
 	#homepage-gif {
 		margin: 0 auto;
-		width: 85%;
+		max-height: 500px;
 	}
 
 	.chatBubble, .chatBubbleInstagram, .chatBubbleTwitter {
-/*	  position: relative;
-	  padding: 15px;*/
 	  margin: 1em 2em 3em;
-/*	  color: #000;
-	  border-radius: 20px;
-	  background: white;*/
 	}
 
 	/*Footer*/
@@ -552,7 +531,7 @@ footer {
 	#homepage-logo {
 		max-width: 300px;
 		margin: 0 auto;
-		padding: 40px 0px;
+		padding: 20px 0px;
 	}
 
 
