@@ -18,26 +18,5 @@
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
     
-
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <!-- Lazy Load JS file -->
-    <script src="js/lazysizes.min.js"></script>
-    
-
-    <!-- This code will notify users if they are using an out-of-date browser  -->
-    <script> 
-        var $buoop = {c:2}; 
-        function $buo_f(){ 
-         var e = document.createElement("script"); 
-         e.src = "//browser-update.org/update.js"; 
-         document.body.appendChild(e);
-        };
-        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-        catch(e){window.attachEvent("onload", $buo_f)}
-    </script>

@@ -14,7 +14,9 @@
 
 <body>
   
+  <!-- Google Analytics tracking code -->
   <?php include_once("analyticstracking.php") ?>
+  <!-- Navigation -->
   <?php include_once("navigation.html") ?>
 
   <!-- Page Content -->
@@ -81,38 +83,21 @@
     <!-- /.container -->
 
     <div class="clear"></div>
-      
+    
+    <!-- Footer -->
     <?php
       include ("_footer.php")
     ?>
 
   </div> 
   <!-- end WRAP -->
+  
+  <!-- Javascript/Jquery -->
+  <?php
+    include ("_code.php")
+  ?>
 
-<!-- The following script changes the navbar when scrolling down -->
-<script>
-  $(function() {
-      //caches a jQuery object containing the header element
-      var header = $(".navbar");
-      $(window).scroll(function() {
-          var scroll = $(window).scrollTop();
-
-          if (scroll >= 50) {
-              header.addClass("navbarOnScroll");
-          } else {
-              header.removeClass("navbarOnScroll");
-          }
-      });
-  });
-</script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="http://www.shamp.me/js/bootstrap.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
+  
 </body>
 
 </html>

@@ -40,6 +40,10 @@ COLORS USED
 	color: #e69f12;
 }
 
+.whiteColor {
+	color: white;
+}
+
 /*
 This hides the iPhone video play button on background image on mobile
 */
@@ -89,6 +93,13 @@ h1,h2,h3,h4,h5,h6,p {
 	font-weight: bold;
 }
 
+
+.scriptFont {
+	font-family: 'Kalam', cursive;
+}
+
+
+
 /*****************************Navbar*****************************/
 
 /*This changes the default color of the mobile drop down button in the menu to white */
@@ -131,6 +142,21 @@ upon scrolling down on the "About" page*/
 	    );
 	opacity: 0.8;
 }
+
+
+/* This pushes down a section anchor so it isn't obscured under the nav bar */
+#useCasesShouts:before, 
+#useCasesReminders:before, 
+#useCasesPMs:before, 
+#useCasesSD:before, 
+#useCasesGroup:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+}
+
 
 /***************************
 Buttons
@@ -203,8 +229,7 @@ Buttons
 }
 
 
-
-.chatBubbleInstagram {
+.chatBubbleWhite {
   position: relative;
   padding: 15px;
   margin: 0 0 5em 0;
@@ -214,7 +239,7 @@ Buttons
 }
 
 
-.chatBubbleInstagram:after {
+.chatBubbleWhite:after {
   content: "";
   display: block; /* reduce the damage in FF3.0 */
   position: absolute;
@@ -227,7 +252,7 @@ Buttons
 }
 
 
-.chatBubbleTwitter {
+.chatBubbleBlue {
   position: relative;
   padding: 15px;
   margin: 0 0 5em 0;
@@ -237,7 +262,7 @@ Buttons
 }
 
 
-.chatBubbleTwitter:after {
+.chatBubbleBlue:after {
   content: "";
   display: block; /* reduce the damage in FF3.0 */
   position: absolute;
@@ -268,7 +293,7 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(img/mapblue.jpg) no-repeat;
+    background: url(../img/mapblue.jpg) no-repeat;
     background-size: cover; 
 }
 
@@ -394,7 +419,17 @@ on the CSS file at info.shmap.me
 *****************************/
 
 
+/***************************** 
+Use Cases
+*****************************/
+.useCaseHeader {
+	border-radius: 100%;
+	margin: 0 auto;
+}
 
+.useCaseHeaderText {
+	font-size: 6em;
+}
 
 
 /*****************************
@@ -468,7 +503,7 @@ footer {
 		background: url(../img/mapblue.jpg) #000 repeat center center fixed;
 	}
 
-	#homepage-logo {
+	.main-logo {
 		max-width: 250px !important;
 		margin: 0 auto;
 		padding-bottom: 20px;
@@ -479,7 +514,7 @@ footer {
 		max-height: 500px;
 	}
 
-	.chatBubble, .chatBubbleInstagram, .chatBubbleTwitter {
+	.chatBubble, .chatBubbleWhite, .chatBubbleBlue {
 	  margin: 1em 2em 3em;
 	}
 
@@ -527,13 +562,11 @@ footer {
 		color: #ecf0f1;
 	}
 
-
-	#homepage-logo {
+	.main-logo {
 		max-width: 300px;
 		margin: 0 auto;
-		padding: 20px 0px;
+		padding: 10px 0px;
 	}
-
 
 	#homepage-gif {
 		margin: 0 auto;
