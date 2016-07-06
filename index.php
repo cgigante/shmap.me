@@ -40,27 +40,26 @@
                     </a>                  
                   </div>
                   <div>
-                    <h3><span class="orangeColor">Brand Ambassadors:</h3></span>
+                    <h3><span class="orangeColor scriptFont">Brand Ambassadors:</h3></span>
                     <h4><em>Download the Shmap Quickstart Guide &amp; Presentation</em></h4>
                     <div class="row">
                       <div class="col-md-6">
-                        <div class="div-quickstart">
+                        <div class="div-dl-images">
                           <div class="hovereffect">
                               <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
                               <div class="overlay">
-                                 <a class="info" href="quickstart/shmap_launch_handout_sm.pdf" download><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download the Shmap Quickstart Guide</a>
+                                 <a class="info" href="quickstart/shmap_launch_handout_sm.pdf" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                               </div>
                           </div>                    
                         </div>
                       </div>
                       
                       <div class="col-md-6">
-                        <div class="div-quickstart">
+                        <div class="div-dl-images">
                             <div class="hovereffect">
-                                <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
+                                <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="presentationImage">
                                 <div class="overlay">
-                                   <!-- <h2>Hover effect 1</h2> -->
-                                   <a class="info" href="presentation/Shmap_Presentation_for_App_Launch_v6_sm.pdf" download><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download the Brand Ambassador presentation</a>
+                                   <a class="info" href="presentation/Shmap_Presentation_for_App_Launch_v6_sm.pdf" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                                 </div>
                             </div>                    
                           </div>
