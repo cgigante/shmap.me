@@ -15,7 +15,8 @@
   <!-- Image Gallery -->
   <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
   <link rel="stylesheet" href="http://www.shmap.me/css/bootstrap-image-gallery.min.css">
-
+  <!-- Google Analytics tracking code -->
+  <?php include_once("analyticstracking.php") ?>
 </head>
 
 <body>
@@ -68,10 +69,10 @@
   <div class="wrap">
     <div class="container" id="homePage">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <div class="text-center chatBubble animated bounceInUp">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <img class="img-responsive main-logo" src="img/softBarbie_withText_trnsp.png" alt="Shmap Logo">
                 <h2 class="scriptFont">Need some inspiration for using Shmap? Check out some of our <span class="orangeColor">use cases</span> below.</h2>
                 <br>
@@ -82,7 +83,7 @@
                 <h4><a href="#useCasesGroup">Group Messages</a></h4>
               </div>
               <br>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <img src="img/usecases/usecases_header.jpg" alt="Use Cases Header Image" class="img-responsive useCaseHeader" />    
               </div>
             </div>
@@ -100,7 +101,7 @@ Shouts
       <h1 id="useCasesShouts" class="scriptFont whiteColor text-center useCaseHeaderText">Shouts</h1>
       <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Out partying and want to invite people around to join you for a drink? Leave a Shout at your current location.</h3>
@@ -112,7 +113,7 @@ Shouts
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- Blue Bubble, White Text -->
           <div class="text-center chatBubbleBlue animated bounceInRight">
             <h3 class="scriptFont whiteColor">Want to recommend the hottest new spot in town? Leave a Shout with your review!</h3>
@@ -124,7 +125,7 @@ Shouts
           </div>          
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Do you know your neighborhood better than anyone? Post Shouts around town to mark your territory and offer a unique voice from a true local.</h3>
@@ -144,7 +145,7 @@ Shouts
       <!-- Begin Row -->
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInRight">
             <h3 class="scriptFont">Post warnings at the school cafeteria letting others know what monstrosity is on the menu today.</h3>
@@ -157,9 +158,9 @@ Shouts
         </div>      
         
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- Blue Bubble, White Text -->
-          <div class="ctext-center chatBubbleBlue animated bounceInRight">
+          <div class="text-center chatBubbleBlue animated bounceInRight">
             <h3 class="scriptFont whiteColor">Business owner or party promoter? Offer perks for your customers or fans by leaving Shouts at your location.</h3>
             <div id="useCasesShouts4">
               <a href="img/usecases/phone/shout6.jpg" title="Use Case: Shout" data-gallery>
@@ -170,7 +171,7 @@ Shouts
         </div> 
 
         
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInRight">
             <h3 class="scriptFont">Bands and other creatives can promote special events at their shows!</h3>
@@ -193,7 +194,7 @@ Reminders
       <h1 id="useCasesReminders" class="scriptFont whiteColor text-center useCaseHeaderText">Reminders</h1>
 <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <!-- Blue Bubble, White Text -->
           <div class="text-center chatBubbleBlue animated bounceInLeft">
             <h3 class="scriptFont whiteColor">Leave virtual "sticky note" reminders for yourself at the grocery store or as a quick reminder to call mom when you get home.</h3>
@@ -217,7 +218,7 @@ Private Messages
       
       <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-4 ">
+        <div class="col-sm-4 ">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Plant messages at locations for your friends where they have done something embarrassing or memorable</h3>
@@ -229,7 +230,7 @@ Private Messages
           </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- Blue Bubble, White Text -->
           <div class="text-center chatBubbleBlue animated bounceInLeft">
             <h3 class="scriptFont whiteColor">Rekindle love by leaving a note for your former boyfriend or girlfriend at the place you met.</h3>
@@ -241,7 +242,7 @@ Private Messages
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Leave a message at the bar to let that delinquent friend know they should be studying, not partying.</h3>
@@ -264,7 +265,7 @@ Self-Destructing Messages
       <h1 id="useCasesSD" class="scriptFont whiteColor text-center useCaseHeaderText">Self-Destructing Messages</h1>
      <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <!-- Blue Bubble, White Text -->
           <div class="text-center chatBubbleBlue animated bounceInLeft">
             <h3 class="whiteColor scriptFont">Got a message you don't want hanging around for too long? Set it to self-destruct!</h3>
@@ -277,7 +278,7 @@ Self-Destructing Messages
         </div>
         
 
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInRight">
             <h3 class="scriptFont">Send a private photo that will automatically disappear after a specific period of time you select.</h3>
@@ -299,7 +300,7 @@ Group Messages
       <h1 id="useCasesGroup" class="scriptFont whiteColor text-center useCaseHeaderText">Group Messages</h1>
 <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Hold group chats with friends, at a location or not.</h3>
@@ -322,7 +323,7 @@ How do you use Shmap?
       <h1 id="useCasesGroup" class="scriptFont whiteColor text-center useCaseHeaderText">How do <u>you</u> use Shmap?</h1>
 <!-- Begin Row -->
       <div class="row" id="">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <!-- White Bubble, Blue Text -->
           <div class="text-center chatBubbleWhite animated bounceInLeft">
             <h3 class="scriptFont">Are you using Shmap in ways you think are unique? We'd love to hear about it! <a href="mailto:info@ideally.net">Drop us a message</a> with your username and a description of how you use Shmap. If you've got fun ideas, we might feature you on our social media!</h3>

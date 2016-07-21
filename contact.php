@@ -9,13 +9,14 @@
  <?php
   include ("_header.php")
   ?>
-    <title>Contact Us | Shmap | Mobile Messaging App</title>
+  <title>Contact Us | Shmap | Mobile Messaging App</title>
+  <!-- Google Analytics tracking code -->
+  <?php include_once("analyticstracking.php") ?>    
 </head>
 
 <body>
   
-  <!-- Google Analytics tracking code -->
-  <?php include_once("analyticstracking.php") ?>
+
   <!-- Navigation -->
   <?php include_once("navigation.html") ?>
 

@@ -11,14 +11,14 @@
   include ("_header.php")
   ?>
   <title>Shmap | Shmap Brand Ambassador Program</title>
-
+  <!-- Google Analytics tracking code -->
+  <?php include_once("analyticstracking.php") ?>
 </head>
 
 <body>
 
 
-<!-- Google Analytics tracking code -->
-<?php include_once("analyticstracking.php") ?>
+
 
 
   <?php include_once("navigation.html") ?>

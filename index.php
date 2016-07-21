@@ -11,7 +11,8 @@
   include ("_header.php")
   ?>
   <title>Shmap | Mobile Messaging App</title>
-
+  <!-- Google Analytics tracking code -->
+  <?php include_once("analyticstracking.php") ?>
 </head>
 
 <body>
@@ -19,8 +20,7 @@
       <source src="videos/shmap_edit4.mp4" type="video/mp4">
   </video>
 
-  <!-- Google Analytics tracking code -->
-  <?php include_once("analyticstracking.php") ?>
+
   <!-- Navigation -->
   <?php include_once("navigation.html") ?>
   
@@ -48,7 +48,7 @@
                           <div class="hovereffect">
                               <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
                               <div class="overlay">
-                                 <a class="info" href="quickstart/shmap_launch_handout_sm.pdf" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                                 <a class="info" href="http://bit.ly/shmap-quick" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                               </div>
                           </div>                    
                         </div>
@@ -59,7 +59,7 @@
                             <div class="hovereffect">
                                 <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="presentationImage">
                                 <div class="overlay">
-                                   <a class="info" href="presentation/Shmap_Presentation_for_App_Launch_v6_sm.pdf" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                                   <a class="info" href="http://bit.ly/shmap-preso" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                                 </div>
                             </div>                    
                           </div>
