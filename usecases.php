@@ -272,7 +272,7 @@ Private Messages
             <h1 class="increaseSize"><i class="fa fa-globe orangeColor" aria-hidden="true"></i></h1>
             <h3 class="scriptFont">Leave location messages for loved ones at all the amazing spots they’re visiting during travel around the world...</h3>
             <div id="useCasesPMs1">
-              <a href="img/usecases/phone/p2p1.jpg" title="Use Case: Private Message" data-gallery>
+              <a href="img/usecases/phone/2-3_inloop_chat-w-loc-vacation-msg1.jpg" title="Use Case: Private Message" data-gallery>
                 <img class="img-responsive" src="img/usecases/phone/2-3_inloop_chat-w-loc-vacation-msg1.jpg" alt="Use Case: Private Message" />
               </a> 
             </div>
@@ -285,7 +285,7 @@ Private Messages
             <h1 class="increaseSize"><i class="fa fa-plane orangeColor" aria-hidden="true"></i></h1>
             <h3 class="scriptFont whiteColor">...and welcome them home right when they land!</h3>
             <div id="useCasesPMs2">
-              <a href="img/usecases/phone/p2p2.jpg" title="Use Case: Private Message" data-gallery>
+              <a href="img/usecases/phone/2-3_inloop_chat-w-loc-vacation.jpg" title="Use Case: Private Message" data-gallery>
                 <img class="img-responsive" src="img/usecases/phone/2-3_inloop_chat-w-loc-vacation.jpg" alt="Use Case: Private Message" />
               </a> 
             </div>
