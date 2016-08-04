@@ -3,7 +3,7 @@
       <div class="container">
 
           <div class="col-md-4 animated fadeIn">
-          	<a href="index.php"><img src="http://www.shmap.me/img/footerlogo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
+          	<a href="index.php"><img src="img/logo.png" alt="Shmap Logo" class="shmap-logo-footer img-responsive"></a>
           	<p class="text-muted">Copyright &copy; <?php echo date("Y") ?> ideally, LLC | Shmap</p>
           </div>
 

@@ -53,15 +53,6 @@ video::-webkit-media-controls-start-playback-button {
 
 
 
-
-/* Wrapper for page content to push down footer */
-/*#wrap {
-	min-height:100%;
-	position:relative;
-	margin: 0 auto;
-  	padding-top: 64px;
-}*/
-
 .fullWidthIMG {
 	width: 100%;
 }
@@ -133,14 +124,14 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /*This is the added class which changes the navbar styling 
-upon scrolling down on the "About" page*/
+upon scrolling down */
 .navbarOnScroll {
 	background-image: 
 		linear-gradient(
 	      to top right, 
 	      #55647e, #55647e
 	    );
-	opacity: 0.8;
+	opacity: 0.95;
 }
 
 
@@ -313,6 +304,7 @@ video#bgvid {
 	height: 100%;
 	margin: 0 auto;
 }
+
 	#quickstartImage, #presentationImage {
 		width: 100%;
 		height: 100%;
@@ -323,7 +315,7 @@ video#bgvid {
 /* Hovereffect code for Quickstart image (source: https://miketricking.github.io/dist/) */
 .hovereffect {
 	max-width: 100%;
-	height:100%;
+	height: 100%;
 	float:left;
 	overflow:hidden;
 	position:relative;
@@ -332,7 +324,7 @@ video#bgvid {
 }
 
 .hovereffect .overlay {
-	max-width: 100%;
+	width: 100%;
 	height:100%;
 	position:absolute;
 	overflow:hidden;
@@ -429,6 +421,9 @@ Use Cases
 	font-size: 6em;
 }
 
+.increaseSize {
+	font-size: 4em;
+}
 
 /*****************************
 Contact Page
@@ -480,13 +475,58 @@ footer {
 
 /****************************** Media Queries ******************************/
 
-@media all and (max-width:989px) {
+
+/*This code snipped changes the breakpoint on the Nav bar*/
+@media (max-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+/*End Nav Bar breakpoint code*/
+
+
+
+
+/* Old value: 989 */
+@media all and (max-width:768px) {
 
 	/*This changes the color of the nav links*/
 	.navbar-brand, .navbar-nav > li > a {
-		color: black;
+		color: #3068b2;
+		text-align: center;
 	}
-
 		/* toggled background color of nav links */
 		.navbar .navbar-collapse .nav {
 		  background-color: white;
@@ -496,6 +536,11 @@ footer {
 		.navbar .navbar-collapse .nav:focus {
 		  background-color: #bdc3c7;
 		}
+
+	.navbar-brand, .navbar-nav > li > ul > li > a {
+		color: #3068b2;
+		text-align: center;
+	}
 
 	body { 
 		background: url(../img/mapblue.jpg) #000 repeat center center fixed;
@@ -552,8 +597,8 @@ footer {
 }
 
 
-/*768*/
-@media all and (min-width:990px) {
+/* Old value: 990 */
+@media all and (min-width:769px) {
 
 	/*This changes the color of the nav links*/
 	.navbar-brand, .navbar-nav > li > a {
@@ -584,8 +629,8 @@ footer {
 		max-height: 40px;
 		display: block;
 		margin-top: 10px;
-	  margin-left: auto;
-	  margin-right: auto;
+	  	margin-left: auto;
+	  	margin-right: auto;
 	}
 	.social-icon-div {
 		text-align: center;

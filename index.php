@@ -33,7 +33,7 @@
             <h1 class="animated flipInX">
               <div class="row">
                 <div class="col-md-8">
-                  <img src="img/softBarbie_withText_trnsp.png" class="img-responsive main-logo">
+                  <img src="img/logo.png" class="img-responsive main-logo">
                   <div id="app-store-badge-div">
                     <a href="https://itunes.apple.com/us/app/shmap/id993757607" target="_blank">
                       <img id="app-store-badge" class="img-responsive" src="img/app_store_badge.png" alt="Download Shmap on iOS" title="Download Shmap on iOS" />
@@ -46,10 +46,10 @@
                       <div class="col-md-6">
                         <div class="div-dl-images">
                           <div class="hovereffect">
-                              <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
-                              <div class="overlay">
-                                 <a class="info" href="http://bit.ly/shmap-quick" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
-                              </div>
+                            <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
+                            <div class="overlay">
+                               <a class="info" href="http://bit.ly/shmap-quick" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                            </div>
                           </div>                    
                         </div>
                       </div>
@@ -57,10 +57,10 @@
                       <div class="col-md-6">
                         <div class="div-dl-images">
                             <div class="hovereffect">
-                                <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="presentationImage">
-                                <div class="overlay">
-                                   <a class="info" href="http://bit.ly/shmap-preso" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
-                                </div>
+                              <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="presentationImage">
+                              <div class="overlay">
+                                 <a class="info" href="http://bit.ly/shmap-preso" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                              </div>
                             </div>                    
                           </div>
                       </div>

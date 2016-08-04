@@ -13,6 +13,9 @@
     <!-- Animation Styling -->
     <link rel="stylesheet" href="css/animate.css">
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
 
