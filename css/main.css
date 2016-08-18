@@ -24,6 +24,10 @@ a {
 	color: #3498db;
 }
 
+.hr-small {
+	width: 50%;
+}
+
 
 /*
 COLORS USED
@@ -291,8 +295,10 @@ video#bgvid {
 
 /*App Store Badge on Homepage*/
 #app-store-badge-div, #app-store-badge {
-	width: 150px;
+	width: 250px;
 	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 	#app-store-badge:hover {
 		opacity: 0.7;
@@ -549,7 +555,7 @@ footer {
 	.main-logo {
 		max-width: 250px !important;
 		margin: 0 auto;
-		padding-bottom: 20px;
+		/*padding-bottom: 20px;*/
 	}
 
 	#homepage-gif {

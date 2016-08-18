@@ -40,31 +40,44 @@
                     </a>                  
                   </div>
                   <div>
-                    <h3><span class="orangeColor scriptFont">Brand Ambassadors:</h3></span>
+					<h3><span style="font-size:2em;" class="orangeColor scriptFont">Shmap is hiring!</h3></span>
+                    <h4><em>download job description here:</em></h4>
+                    <div class="row">
+                    	<div class="col-sm-2"></div>
+    					<div class="col-sm-8">
+    						<a class="info" href="http://bit.ly/shmap-content-producer" download><span style="font-size:0.8em;">Content Producer</span></a>
+    					</div>
+                        <div class="col-sm-2"></div>
+                    </div>
+
+                    <!-- <hr class="hr-small">
+
+                    <h3><span class="orangeColor scriptFont">Brand Ambassador Documents:</h3></span>
                     <h4><em>Download the Shmap Quickstart Guide &amp; Presentation</em></h4>
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-sm-1"></div>
+                      <div class="col-sm-5">
                         <div class="div-dl-images">
                           <div class="hovereffect">
                             <img src="quickstart/quickstart_image.png" alt="Quickstart Thumbnail Image" class="img-responsive" id="quickstartImage">
                             <div class="overlay">
-                               <a class="info" href="http://bit.ly/shmap-quick" download>Download the Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                               <a class="info" href="http://bit.ly/shmap-quick" download>Shmap Quickstart Guide<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                             </div>
                           </div>                    
                         </div>
                       </div>
-                      
-                      <div class="col-md-6">
+                      <div class="col-sm-5">
                         <div class="div-dl-images">
                             <div class="hovereffect">
                               <img src="presentation/presentation_image.jpg" alt="Quickstart Thumbnail Image" class="img-responsive" id="presentationImage">
                               <div class="overlay">
-                                 <a class="info" href="http://bit.ly/shmap-preso" download>Download the Brand Ambassador presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                                 <a class="info" href="http://bit.ly/shmap-preso" download>Brand Ambassador Presentation<br><br><span class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
                               </div>
                             </div>                    
                           </div>
                       </div>
-                    </div>
+                      <div class="col-sm-1"></div>
+                    </div> -->
 
                   </div>
 
